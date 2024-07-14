@@ -3,11 +3,9 @@ body {
   font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica,
     Arial, sans-serif;
+	background-image: url("https://github.com/nyanko2/furansama/blob/21b22769cf403fd589b247b7f72861dcce743aab/IMG_1201.png");
 }
 
-html (
-background-image: url("https://github.com/nyanko2/furansama/blob/21b22769cf403fd589b247b7f72861dcce743aab/IMG_1201.png")
-)
 #contents {
   display: flex;
   flex-direction: column;
