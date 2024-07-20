@@ -4,6 +4,11 @@ body {
     Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Helvetica,
     Arial, sans-serif;
 	background-image: url("https://github.com/nyanko2/furansama/blob/21b22769cf403fd589b247b7f72861dcce743aab/IMG_1201.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #000000;
 }
 
 #contents {
