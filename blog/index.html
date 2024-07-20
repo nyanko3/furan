@@ -1,29 +1,26 @@
 <!DOCTYPE html>
 <head>
     <meta charset='utf-8'>
-    <title>東方の常識問題</title>
-    <link rel="stylesheet" href="example.css">
-
-    <div style="text-align: center">
+    <title>自己紹介</title>
     <script>function getlevel(){
-        if(document.getElementById('word').value == "フランドールスカーレット"){document.cookie = "yuki=True; path=/;";}else{
+        if(document.getElementById('word').value == "hima"){document.cookie = "yuki=True; path=/;";}else{
         let req = new XMLHttpRequest();
         req.addEventListener("load", function(){document.getElementById('info').textContent = this.responseText});
         req.open("GET", "/answer?q="+document.getElementById('word').value);
         req.send();}
     }</script>
-    
-</head>
+</head><div style="text-align: center">
 <body>
-    <h3><font color=”#ffffff”>簡単な東方の問題です。</font></h3><br>
-    <h3><font color=”#ffffff”>答えを白い枠に記入して、枠の右にある確認ボタンを押してください。</font></h3><br>
-    <h3><font color=”#ffffff”>2022年の人気投票1位は？</font></h3><br>
-    <h3><font color=”#ffffff”>わかるよね？</font></h3><br>
-    <h3><font color=”#ffffff”>間違えるわけないよね？</font></h3><br>
-　　 <h3><font color=”#ffffff”>間違えないと思うけど答え書いとくか</font></h3><br>
-　　 <h3><font color=”#ffffff”>フランドールスカーレット</font></h3><br>
+   簡単な東方の問題です。<br>
+   答えを白い枠に記入して、枠の右にある確認ボタンを押してください。<br>
+   2022年の人気投票1位は？<br>
+   わかるよね？<br>
+　　間違えるわけないよね？<br>
+　　間違えないと思うけど書いとくか<br>
+　　フランドールスカーレット<br>
 
-    <input id="word" type="text"></input><input type="button" onClick="getlevel()"><font color=”#ffffff”>確認</font></input>
-     <div id="info">
+<input id="word" type="text"></input><input type="button" onClick="getlevel()">確認</input>
+    <div id="info">
+        </div>
 </body>
 </html>
