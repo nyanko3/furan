@@ -3,10 +3,10 @@
     <meta charset='utf-8'>
     <title>東方の常識問題</title>
     <script>function getlevel(){
-        if(document.getElementById('suikakuitai').value == "フランドールスカーレット"){document.cookie = "yuki=True; path=/;";}else{
+        if(document.getElementById('yuki').value == "フランドールスカーレット"){document.cookie = "yuki=True; path=/;";}else{
         let req = new XMLHttpRequest();
         req.addEventListener("load", function(){document.getElementById('info').textContent = this.responseText});
-        req.open("GET", "/answer?q="+document.getElementById('suikakuitai').value);
+        req.open("GET", "/answer?q="+document.getElementById('yuki').value);
         req.send();}
     }</script>
 </head><div style="text-align: center">
@@ -19,7 +19,7 @@
 　　間違えないと思うけど書いとくか<br>
 　　フランドールスカーレット<br>
 
-<input id="suikakuitai" type="text"></input><input type="button" onClick="getlevel()">確認</input>
+<input id="yuki" type="text"></input><input type="button" onClick="getlevel()">確認</input>
     <div id="info">
         </div>
 </body>
